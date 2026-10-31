@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MY GAME</title>
-    <h1>My Game</h1>
+    <title>MY HOMEPAGE</title>
+    <h1>MY HOMEPAGE</h1>
     <link rel="icon" type="image/png" href="thinh02.png">
-  </head>
-  <body>
-<style>
+
+    <style>
   body{
     background-color: #afd8f0;
     color: #64536e;
     font-family: monospace;
-    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
 
     display: flex;
     flex-direction: column;
@@ -19,37 +18,38 @@
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    gap: 10px;
     transition: all 0.7s ease
   }
 
-    .btnsibu{
+    .btnsibu {
       background-color: #14c8d9;
       border-radius: 5px;
       padding: 10px 20px;
-      font-family: ahronbd;
+      font-family: arial;
       font-size: 20px;
       border: 3px solid;
       border-color: #2222;
-      transition: background-color 0.2s ease;
+      transition: all 0.2s ease;
     }
 
     .btnsibu:hover{
       background-color: #c2e1ed;
-      border-radius: 5px;
-      padding: 10px 20px;
-      font-family: angsaub;
-      font-size: 20px;
-      
+      font-color: #0a3b8a;
+      font-size: 23px;
     }
 
     .btnsibu:active{
       background-color: #2223;
       border-color: #999999;
+      font-size: 20px;
     }
-    
+
 </style>
-  <a href="https://turbowarp.org/1394856950/embed">
-    <button class="btnsibu">PLAY</button>
-  </a>
+  </head>
+  <body>
+  <button class="btnsibu" onclick="window.open('https://turbowarp.org/1394856950/embed', '_self')">PLAY MY GAME</button>
+  <button class="btnsibu" onclick="window.open('https://github.com/ThinhHey-02', '_self')">MY GITHUB PAGE</button>
+
    </body>
 </html>
